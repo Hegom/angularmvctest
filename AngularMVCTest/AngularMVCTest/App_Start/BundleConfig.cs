@@ -13,6 +13,7 @@ namespace AngularMVCTest
 
             bundles.Add(new ScriptBundle("~/bundles/AngularMVCTest")
                     .IncludeDirectory("~/Scripts/Controllers", "*.js")
+                    .IncludeDirectory("~/Scripts/Factories", "*.js")
                     .Include("~/Scripts/AngularMVCTest.js"));
 
             BundleTable.EnableOptimizations = true;
