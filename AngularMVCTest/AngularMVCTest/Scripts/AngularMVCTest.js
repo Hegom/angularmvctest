@@ -4,6 +4,7 @@ AngularMVCTest.controller('LandingPageController', LandingPageController);
 AngularMVCTest.controller('LoginController', LoginController);
 
 AngularMVCTest.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
+AngularMVCTest.factory('RegistrationFactory', RegistrationFactory);
 
 var configFunction = function ($routeProvider, $httpProvider) {
     $routeProvider.
